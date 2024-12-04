@@ -3,6 +3,42 @@
     font-family: 'Raleway', sans-serif;
 }
 
+/****** j'insère ce bout de code pour supprimer les marges en haut de la page ***********/
+
+body, html { 
+    margin: 0; height: 100%; 
+}
+
+.head{
+    display :flex;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    width : 30%;
+    margin: 18px;
+}
+
+.but1,.but2{
+    border:1px white solid;
+    background-color: white;
+    align-self: start;
+    padding: 12px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.but1{
+    margin-right: 32px;
+}
+
+.but1:hover, .but2:hover{
+    color: blue;
+    border-top: 1px blue solid;
+    
+}
+
 :root {
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
