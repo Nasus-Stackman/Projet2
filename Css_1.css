@@ -46,8 +46,8 @@ body, html {
 }
 
 .but1:hover, .but2:hover{
-    color: blue;
-    border-top: 1px blue solid;
+    color: #0065FC;
+    border-top: 1px  solid #0065FC;
     
 }
 
@@ -89,7 +89,7 @@ body, html {
 
 
 .but3{
-    background-color: blue;
+    background-color: #0065FC;
     color : white;
     border: none;
     border-radius: 0px 15px 15px 0px;
@@ -100,6 +100,75 @@ body, html {
 #loupe{
     display: none;
 }
+
+.Filtres{
+    display: flex;
+}
+
+.Groupe4filtres{
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+
+}
+
+.Filtre1, .Filtre2, .Filtre3, .Filtre4{
+    height: 50px;
+    border: solid 2px #F2F2F2;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 25px 25px 25px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.Filtre1{
+    width: 173px;
+}
+
+.Filtre2{
+    width: 134px;
+}
+
+.Filtre3{
+    width: 170px;
+}
+
+.Filtre4{
+    width: 167px;
+}
+
+.info{
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.cercle{
+    margin-right: 13px;
+    margin-top: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    width: 24px;
+    border: solid 1px #F2F2F2;
+    border-radius: 25px 25px 25px 25px;   
+}
+
+#logo_info{
+    font-size: 10px;
+}
+
+/* CHANGEMENT DE COULEUR POUR LES FILTRES*/
+
+.Filtre1:hover, .Filtre2:hover, .Filtre3:hover, .Filtre4:hover{
+    background-color: #DEEBFF;
+}
+
 
 :root {
     --main-color: #0065FC;
