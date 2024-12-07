@@ -179,7 +179,7 @@ body, html {
 
 .Hebergements_Card img {
     width: 240px;
-    height: 110px;
+    height: 115px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -187,7 +187,6 @@ body, html {
 
 .hebergements{
     width: 65%;
-    
 }
 
 .Hebergements_Card{
@@ -196,6 +195,7 @@ body, html {
     flex-wrap: wrap;
     gap: 30px;
     padding-top: 30px; 
+    padding-bottom: 30px;
 
 }
 
@@ -226,21 +226,20 @@ body, html {
     display: flex;
     margin-top: 33px;
 }
+ 
+.hebergements .card-content{
+    height: 80px;
 
-.hebergements .card-content{   
-   
-    
-    
 }
-    
+
 .hebergements .card-title{
-    margin: 2px;
+    margin: 6px;
     margin-left: 8px;
     font-size: 16px;
 }
 
 .hebergements .card-subtitle{
-    margin: 2px;
+    margin: 6px;
     margin-left: 8px;
     font-size: 14px;
     font-weight: 400;
@@ -248,8 +247,44 @@ body, html {
 }
 
 .hebergements .card-rating {
-    margin: 2px;
+    margin: 6px;
     margin-left: 8px;
+}
+
+/* ETAPE 8 */
+ 
+.Activites{
+    display: flex;
+    flex-direction: column;
+    gap : 30px;
+    padding: 30px;
+    
+}
+
+.bloc_4_vignettes{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.vignette{
+    height: 440px;
+    width: 298px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+}
+
+.Activites img{
+    height: 380px;
+    width: 298px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+}
+
+.vignette .card-title {
+    margin-left: 20px;
 }
 
 
@@ -287,7 +322,6 @@ a {
 }
 
 
-
 .card img {
     object-fit: cover;
 }
@@ -304,11 +338,12 @@ a {
     color: var(--main-bg-color)
 }
 
-/****** Hebergements And Populaires ***********/
+/****** Hebergements And Populaires ***********/   
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
-    margin-top: 15px ;
+    margin-top: 15px ;  
+    margin-bottom: 25px;
 }
 
 .hebergements-and-populaires section {
