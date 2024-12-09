@@ -21,24 +21,27 @@ body, html {
     font-size: 18px;
 }
 
+/* ETAPE 3 = HAUT DE PAGE*/
+
 .head{
     display :flex;
     justify-content: space-between;
     margin-bottom: 50px;
 }
 
-.logo{
-    width : 30%;
+.logo_image{
+    width: 32%;
     margin-top: 18px;
 }
 
-.but1,.but2{
+.but1, .but2{
     border:1px white solid;
     background-color: white;
     align-self: start;
     padding: 12px;
     padding-right: 0px;
     padding-left: 0px;
+    font-size: 16px;
 }
 
 .but1{
@@ -68,13 +71,6 @@ body, html {
     background-color: #F2F2F2;
     border-radius: 15px 0px 0px 15px;
     
-}
-
-
-
-.icone1{
-    margin: auto;
-    width: 1500px;
 }
 
 #lieu{
@@ -258,7 +254,7 @@ body, html {
     flex-direction: column;
     gap : 30px;
     padding: 30px;
-    
+    margin-bottom: 42px;   
 }
 
 .bloc_4_vignettes{
@@ -458,13 +454,134 @@ a {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    #loupe{
-
+      
+    .main-container{
+        padding: 0px;
     }
+    
+    .head{
+        display: flex;
+        width: 100%; 
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .logo_image{
+        width: 20%;
+    }
+    
+    
+    .Navigation{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 15px;
+    }
+
+    .but1, .but2{
+        width: 100%;
+        margin: 0px;
+        padding-top: 20px;
+        border-bottom: 2px #F2F2F2 solid;
+    }
+    
+    .but1:hover, .but2:hover{
+        color: #0065FC;
+        border-top: none;
+        border-bottom: 2px solid #0065FC;
+        
+    }
+    
+    .form{
+        width: 50%;
+        border: 1px solid red;
+    }
+    
+    .but3{
+        border-radius: 15px 15px 15px 15px;
+        height: 49px;
+        width: 49px;
+    }
+    
+    #loupe{
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+    
     .mot{
         display: none;
     }
     
-       
+    /* PADDING LEFT*/
     
+    .Titre, .form, .Filtres, .info{
+        padding-left: 15px;
+    }
+    
+    .Filtre1, .Filtre2, .Filtre3, .Filtre4{
+        width: 45%;
+        font-size: 14px;
+    }
+
+    .Filtres{
+        flex-direction: column;
+    }
+    
+    .Groupe4filtres{
+        display: flex;
+        flex-wrap: wrap;
+    }  
+    
+    .Filtre2{
+        justify-content: flex-start;
+    }
+
+    #femme{
+        padding-left: 20px;
+    }
+   
+
+    .hebergements-and-populaires{
+        
+        flex-direction: column-reverse;
+        gap: 15px;
+    }
+
+
+
+
+    .Activites{
+        padding: 0;
+        padding-left: 15px;
+    }
+    
+    .bloc_4_vignettes{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .pied_de_page{
+        height: 480px;
+        width: 100%;
+        flex-direction: column;
+        margin: 0px;
+        gap: 0px;
+        
+    }
+
+    .bloc{   
+        padding: 0px;
+        width: 90%;
+    }
+
+
 }
+
+
+
