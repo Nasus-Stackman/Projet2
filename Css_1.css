@@ -449,6 +449,16 @@ a {
     .card-subtitle {
         font-size: 13px;
     }
+
+
+
+
+    .pied_de_page{
+        height: 163px;
+        width: 100%;
+    }
+
+
 }
 
 /* Small devices (phones, less than 768px) */
@@ -456,7 +466,7 @@ a {
     
      /* PADDING LEFT*/
     
-     .Titre, .form, .Filtres, .info{
+    .Titre, .form, .Filtres, .info{
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -513,7 +523,7 @@ a {
     }
     
     #lieu{
-        width: 120%;
+        width: 110%;
 
     }
     
@@ -563,7 +573,6 @@ a {
     }
 
     .cercle{
-        margin: 0px;
         margin-top: 22px;
         padding: 0px;
     }
@@ -612,6 +621,9 @@ a {
          
     }
     
+    .neutral-star{
+        color: #F2F2F2;
+    }
     
     .populaires-cards{
         display: flex;
@@ -629,7 +641,9 @@ a {
     .populaires-cards .card{
         margin-top: 15px;
     }
- 
+    
+    
+    
    
    
    
